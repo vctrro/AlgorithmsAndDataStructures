@@ -23,6 +23,7 @@ namespace StackAndQueue
         public virtual object? Pop()
         {
             object? data = null;
+
             if (head == null)
             {
                 Console.WriteLine("Stack is empty");
