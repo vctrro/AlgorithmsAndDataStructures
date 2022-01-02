@@ -22,7 +22,7 @@ namespace Stack
             }
         }
 
-        public object Pop()
+        public object? Pop()
         {
             object? data = null;
             if (head == null)
@@ -46,7 +46,7 @@ namespace Stack
             }
 
             public object Data { get; private set; }
-            public Cell Next { get; set; }
+            public Cell? Next { get; set; }
         }
     }
 }
