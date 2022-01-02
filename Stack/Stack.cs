@@ -2,13 +2,11 @@
 
 namespace StackAndQueue
 {
-    
-
     public class Stack
     {
         private Cell? head;
 
-        public void Push(object data)
+        public virtual void Push(object data)
         {
             if (head == null)
             {
@@ -22,7 +20,7 @@ namespace StackAndQueue
             }
         }
 
-        public object? Pop()
+        public virtual object? Pop()
         {
             object? data = null;
             if (head == null)
@@ -36,6 +34,11 @@ namespace StackAndQueue
             }
 
             return data;
+        }
+
+        public virtual void Clear()
+        {
+            head = null;
         }
     }
 }
