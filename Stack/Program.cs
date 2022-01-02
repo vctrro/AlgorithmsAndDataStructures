@@ -1,8 +1,8 @@
-﻿using Stack;
+﻿using StackAndQueue;
 
 Console.WriteLine("Hello, World!");
 
-MyStack stack = new MyStack();
+Stack stack = new Stack();
 
 stack.Push(12);
 stack.Push(44);

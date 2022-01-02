@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace Stack
+namespace StackAndQueue
 {
     
 
-    public class MyStack
+    public class Stack
     {
         private Cell? head;
 
@@ -36,17 +36,6 @@ namespace Stack
             }
 
             return data;
-        }
-
-        private class Cell
-        {
-            public Cell(object data)
-            {
-                Data = data;
-            }
-
-            public object Data { get; private set; }
-            public Cell? Next { get; set; }
         }
     }
 }
