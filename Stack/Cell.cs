@@ -9,7 +9,7 @@ namespace StackAndQueue
             Data = data;
         }
 
-        public object Data { get; private set; }
+        public object Data { get; }
         public Cell? Next { get; set; }
     }
 }

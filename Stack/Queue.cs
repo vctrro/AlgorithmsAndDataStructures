@@ -30,7 +30,7 @@ namespace StackAndQueue
             }
             else
             {
-                Console.WriteLine("Stack is empty");
+                Console.WriteLine("Queue is empty");
             }
 
             return data;
